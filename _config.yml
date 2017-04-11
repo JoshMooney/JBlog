@@ -33,6 +33,6 @@ disqus: Josh
 #ga_domain: bitwiser.in
 
 gems: [jekyll-paginate]
-paginate: 3
+paginate: 8
 paginate_path: "page:num"
 
