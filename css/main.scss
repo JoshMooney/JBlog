@@ -8,7 +8,7 @@
 
 
 
-// Width of the content area
+// Width of the content page of an actual post.
 $content-width:    900px;
 
 
@@ -43,8 +43,9 @@ i.fa {
     margin-right: 5px;
 }
 
+/* This is the size of the posts small preview panel*/
 .mui-container {
-    max-width: 800px;
+    max-width: 900px;
 }
 
 .site-appbar {
