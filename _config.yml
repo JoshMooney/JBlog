@@ -1,7 +1,7 @@
 # Site settings
 ## Change the values as needed.
-title: Bitwiser-Material
-email: brijeshb42@gmail.com
+title: JBlog- Programming Blog
+email: Joshmoo2012@gmail.com
 description: "A jekyll theme implementing material design by using muicss."
 keywords: "jekyll, theme, material, muicss"
 #url: "http://bitwiser.in/bitwiser-material" # the base hostname & protocol for your site
@@ -16,17 +16,17 @@ sass:
   sass_dir: _sass
   style: :compressed
 links:
-  facebook: brijeshb42
+  facebook: Josh Mooney
   twitter: brijeshb42
-  email: brijeshb42@gmail.com
-  github: brijeshb42/bitwiser-material/
+  email: Joshmoo2012@gmail.com
+  github: JoshMooney
 exclude:
   - bower_components
   - README.md
-full_name: Brijesh
+full_name: Josh
 
 ##set this to enable disqus commenting
-disqus: bitwiser
+disqus: Josh
 
 ##set this to enable google analytics
 #ga_id: analyticsID
