@@ -1,6 +1,6 @@
 # Site settings
 ## Change the values as needed.
-title: Bitwiser-Material
+title: JBlog- A Place for Programming
 email: brijeshb42@gmail.com
 description: "A jekyll theme implementing material design by using muicss."
 keywords: "jekyll, theme, material, muicss"
@@ -11,8 +11,8 @@ paginate: 8
 paginate_path: "page:num"
 # Build settings
 markdown: kramdown
-highlighter: pygments
-#highlighter: rouge
+#highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
@@ -32,7 +32,6 @@ disqus: bitwiser
 ##set this to enable google analytics
 #ga_id: analyticsID
 #ga_domain: bitwiser.in
-
 
 gems: [jekyll-paginate]
 paginate: 5
