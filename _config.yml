@@ -4,6 +4,7 @@ title: JBlog
 email: joshmoo2012@gmail.com
 description: "A Place for Programming"
 keywords: "jekyll, theme, material, muicss"
+
 #url: "http://bitwiser.in/bitwiser-material" # the base hostname & protocol for your site
 url: "https://JoshMooney.github.io/JBlog" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -20,6 +21,10 @@ links:
   twitter: twitter
   email: joshmoo2012@gmail.com    #Gmail address
   github: JoshMooney              #Github Name
+
+  #My own added external links
+  Linkedin:
+  Xbox:
 exclude:
   - bower_components
   - README.md
@@ -33,6 +38,6 @@ ga_id: UA-97232992-1
 ga_domain: JoshMooney.github.io/JBlog
 
 gems: [jekyll-paginate]
-paginate: 8
+paginate: 5
 paginate_path: "page:num"
 
