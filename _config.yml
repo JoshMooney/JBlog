@@ -21,10 +21,12 @@ links:
   twitter: twitter
   email: joshmoo2012@gmail.com    #Gmail address
   github: JoshMooney              #Github Name
+  linkedin: josh-mooney-ire/
+  discord_name: Josh
+  discord_invite: https://discord.gg/7st5bYt
+  Xbox:                           #My own added external links
+  timezone: Europe/Dublin
 
-  #My own added external links
-  Linkedin:
-  Xbox:
 exclude:
   - bower_components
   - README.md

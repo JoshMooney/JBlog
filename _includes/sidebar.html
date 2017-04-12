@@ -19,6 +19,14 @@
         {% if site.links.email %}
             <li><a href="mailto:{{ site.links.email }}" class="mui-btn"><i class="fa fa-envelope"></i>Mail</a></li>
         {% endif %}
+
+        <!-- My own custom links-->
+        {% if site.links.linkedin %}
+            <li><a href="https://ie.linkedin.com/in/{{ site.links.linkedin }}"target="_blank" class="mui-btn"><i class="fa fa-linkedin"></i>Linkedin</a></li>
+        {% endif %}
+        {% if site.links.discord_name and site.links.discord_invite %}
+            {% include icon-discord.html name=site.links.discord_name link=site.links.discord_invite %}
+        {% endif %}
     </ul>
   </div>
 </div>
