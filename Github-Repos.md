@@ -9,6 +9,8 @@ permalink: /repos/
 <h1>Github Repositories<h1>
 <h5>Here you can find links to all my public git repositories. I am currently in the process of adding details to each of the README.md's of these projects, simple details like project start date, weather it was a college project or not. If any further information is need as regards my repositories feel free to email me and I can answer any questions you might have.</h5>
 
+<p>
 {% for repository in site.github.public_repositories %}
   * [{{ repository.name }}]({{ repository.html_url }})
 {% endfor %}
+</p>
