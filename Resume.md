@@ -1,6 +1,6 @@
 ---
-layout: page
-title: repos
+layout: post
+title: Resume
 color: indigo
 permalink: /resume/		
 ---
