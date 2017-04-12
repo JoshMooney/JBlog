@@ -30,8 +30,8 @@ full_name: Brijesh
 disqus: bitwiser
 
 ##set this to enable google analytics
-#ga_id: analyticsID
-#ga_domain: bitwiser.in
+ga_id: UA-97232992-1
+ga_domain: JoshMooney.github.io/JBlog
 
 gems: [jekyll-paginate]
 paginate: 5
