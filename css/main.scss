@@ -48,8 +48,9 @@ i.fa {
   max-width: 900px;
 }
 
+/* This is where we set the CSS for the Appbar or Heading bar*/
 .site-appbar {
-  background-color: mui-color("indigo", "500");
+  background-color: mui-color("light-green", "500");
   left: 0;
   margin-bottom: 15px;
   overflow: auto;
@@ -147,8 +148,10 @@ i.fa {
   padding-top: 15px;
 }
 
+/* This is where we change the Post data ie Colour*/
 .post-data {
   padding: 15px;
+  background-color: #FFF;
 }
 
 article {
@@ -424,6 +427,7 @@ article {
 @media (max-width: 480px) {
   body {
     padding-top: 82px;
+
   }
 
   .post-full {

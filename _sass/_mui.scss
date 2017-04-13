@@ -1,3 +1,6 @@
+//Include to import the _variables class
+@import 'base/_variables.scss';
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -412,13 +415,14 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
+//This is where we style and color the body of the HTML
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, Verdana, "Trebuchet MS";
   font-size: 14px;
   font-weight: 400;
   line-height: 1.429;
   color: rgba(0, 0, 0, 0.87);
-  background-color: #FFF;
+  background-color: #FFF;      //This is the background colour of the Site.
 }
 
 input,
@@ -1628,6 +1632,7 @@ hr {
 /**
  * MUI Panel module
  */
+/* This is where you must change the Menu UI Panel's styling*/
 .mui-panel {
   padding: 15px;
   margin-bottom: 20px;
@@ -1649,6 +1654,7 @@ hr {
 /**
  * MUI Buttons
  */
+/* This is where you can change the Menu UI Buttons styling from... */
 .mui-btn {
   -webkit-animation-duration: 0.0001s;
   animation-duration: 0.0001s;
@@ -1681,6 +1687,8 @@ hr {
   user-select: none;
   position: relative;
   overflow: hidden;
+
+  background-color: #FFF;
 }
 
 .mui-btn.mui-text-black {
@@ -2156,7 +2164,6 @@ h4, h5, h6 {
 
 /**
  * MUI Form styles
- * 
  */
 fieldset {
   padding: 0;
