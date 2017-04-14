@@ -422,7 +422,7 @@ body {
   font-weight: 400;
   line-height: 1.429;
   color: rgba(0, 0, 0, 0.87);
-  background-color: #FFF;      //This is the background colour of the Site.
+  background-color: $gry-background;      //This is the background colour of the Site.
 }
 
 input,
@@ -1404,11 +1404,11 @@ hr {
   font-weight: 300;
   font-size: 112px;
   line-height: 112px;
-  color: rgba(0, 0, 0, 0.54);
+  color: $pri-text-color;
 }
 
 .mui-text-display4.mui-text-black {
-  color: rgba(0, 0, 0, 0.54);
+  color: $pri-text-color;
 }
 
 .mui-text-display4.mui-text-white {
@@ -1423,11 +1423,11 @@ hr {
   font-weight: 400;
   font-size: 56px;
   line-height: 56px;
-  color: rgba(0, 0, 0, 0.54);
+  color: $pri-text-color;
 }
 
 .mui-text-display3.mui-text-black {
-  color: rgba(0, 0, 0, 0.54);
+  color: $pri-text-color;
 }
 
 .mui-text-display3.mui-text-white {
@@ -1442,11 +1442,11 @@ hr {
   font-weight: 400;
   font-size: 45px;
   line-height: 48px;
-  color: rgba(0, 0, 0, 0.54);
+  color: $pri-text-color;
 }
 
 .mui-text-display2.mui-text-black {
-  color: rgba(0, 0, 0, 0.54);
+  color: $pri-text-color;
 }
 
 .mui-text-display2.mui-text-white {
@@ -1461,11 +1461,11 @@ hr {
   font-weight: 400;
   font-size: 34px;
   line-height: 40px;
-  color: rgba(0, 0, 0, 0.54);
+  color: $pri-text-color;
 }
 
 .mui-text-display1.mui-text-black, h1.mui-text-black {
-  color: rgba(0, 0, 0, 0.54);
+  color: $pri-text-color;
 }
 
 .mui-text-display1.mui-text-white, h1.mui-text-white {
@@ -1480,11 +1480,11 @@ hr {
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
 }
 
 .mui-text-headline.mui-text-black, h2.mui-text-black {
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
 }
 
 .mui-text-headline.mui-text-white, h2.mui-text-white {
@@ -1499,11 +1499,11 @@ hr {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
 }
 
 .mui-text-title.mui-text-black, h3.mui-text-black {
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
 }
 
 .mui-text-title.mui-text-white, h3.mui-text-white {
@@ -1518,11 +1518,11 @@ hr {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
 }
 
 .mui-text-subhead.mui-text-black, h4.mui-text-black {
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
 }
 
 .mui-text-subhead.mui-text-white, h4.mui-text-white {
@@ -1537,11 +1537,11 @@ hr {
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
 }
 
 .mui-text-body2.mui-text-black, h5.mui-text-black {
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
 }
 
 .mui-text-body2.mui-text-white, h5.mui-text-white {
@@ -1556,11 +1556,11 @@ hr {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
 }
 
 .mui-text-body1.mui-text-black {
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
 }
 
 .mui-text-body1.mui-text-white {
@@ -1575,11 +1575,11 @@ hr {
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  color: rgba(0, 0, 0, 0.54);
+  color: $pri-text-color;
 }
 
 .mui-text-caption.mui-text-black {
-  color: rgba(0, 0, 0, 0.54);
+  color: $pri-text-color;
 }
 
 .mui-text-caption.mui-text-white {
@@ -1594,11 +1594,11 @@ hr {
   font-weight: 500;
   font-size: 13px;
   line-height: 17px;
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
 }
 
 .mui-text-menu.mui-text-black {
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
 }
 
 .mui-text-menu.mui-text-white {
@@ -1613,12 +1613,12 @@ hr {
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
   text-transform: uppercase;
 }
 
 .mui-text-button.mui-text-black {
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
 }
 
 .mui-text-button.mui-text-white {
@@ -1637,8 +1637,8 @@ hr {
   padding: 15px;
   margin-bottom: 20px;
   border-radius: 0;
-  background-color: #FFF;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0px 2px 0 rgba(0, 0, 0, 0.12);
+  background-color: $mui-background;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.16), 0 0px 4px 0 rgba(0, 0, 0, 0.12);
 }
 
 .mui-panel:before,
@@ -1663,7 +1663,7 @@ hr {
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
   display: inline-block;
@@ -1688,11 +1688,11 @@ hr {
   position: relative;
   overflow: hidden;
 
-  background-color: #FFF;
+  background-color: $btn-background;
 }
 
 .mui-btn.mui-text-black {
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
 }
 
 .mui-btn.mui-text-white {
@@ -1708,7 +1708,7 @@ hr {
 .mui-btn:active {
   outline: 0;
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
 }
 
 .mui-btn:hover,
@@ -1757,7 +1757,7 @@ hr {
 }
 
 .mui-btn-default {
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
   background-color: #FFF;
 }
 
@@ -1765,7 +1765,7 @@ hr {
 .mui-btn-default:focus,
 .mui-btn-default:active,
 .mui-open > .mui-btn-default.mui-dropdown-toggle {
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
   background-color: white;
 }
 
@@ -1777,12 +1777,12 @@ fieldset[disabled] .mui-btn-default,
 fieldset[disabled] .mui-btn-default:hover,
 fieldset[disabled] .mui-btn-default:focus,
 fieldset[disabled] .mui-btn-default:active {
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
   background-color: #FFF;
 }
 
 .mui-btn-default.mui-btn-flat {
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
   background-color: transparent;
 }
 
@@ -1790,7 +1790,7 @@ fieldset[disabled] .mui-btn-default:active {
 .mui-btn-default.mui-btn-flat:focus,
 .mui-btn-default.mui-btn-flat:active,
 .mui-open > .mui-btn-default.mui-btn-flat.mui-dropdown-toggle {
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
   background-color: #f2f2f2;
 }
 
@@ -1802,7 +1802,7 @@ fieldset[disabled] .mui-btn-default.mui-btn-flat,
 fieldset[disabled] .mui-btn-default.mui-btn-flat:hover,
 fieldset[disabled] .mui-btn-default.mui-btn-flat:focus,
 fieldset[disabled] .mui-btn-default.mui-btn-flat:active {
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
   background-color: transparent;
 }
 
@@ -2233,7 +2233,7 @@ input[type="checkbox"]:disabled {
   animation-name: mui-node-inserted;
   display: block;
   background-color: transparent;
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.26);
   outline: none;
@@ -2259,22 +2259,22 @@ input[type="checkbox"]:disabled {
 }
 
 .mui-form-control::-webkit-input-placeholder {
-  color: rgba(0, 0, 0, 0.26);
+  color: $pri-text-color;
   opacity: 1;
 }
 
 .mui-form-control::-moz-placeholder {
-  color: rgba(0, 0, 0, 0.26);
+  color: $pri-text-color;
   opacity: 1;
 }
 
 .mui-form-control:-ms-input-placeholder {
-  color: rgba(0, 0, 0, 0.26);
+  color: $pri-text-color;
   opacity: 1;
 }
 
 .mui-form-control::placeholder {
-  color: rgba(0, 0, 0, 0.26);
+  color: $pri-text-color;
   opacity: 1;
 }
 
@@ -2304,7 +2304,7 @@ input[type="search"] {
   top: 0;
   display: block;
   width: 100%;
-  color: rgba(0, 0, 0, 0.54);
+  color: $pri-text-color;
   font-size: 12px;
   font-weight: 400;
   line-height: 15px;
@@ -2359,7 +2359,7 @@ input[type="search"] {
 .mui-form-control:not(:focus).mui-not-empty ~ .mui-form-floating-label,
 .mui-form-control:not(:focus)[value]:not([value=""]):not(.mui-empty):not(.mui-not-empty) ~ .mui-form-floating-label,
 .mui-form-control:not(:focus):not(:empty):not(.mui-empty):not(.mui-not-empty) ~ .mui-form-floating-label {
-  color: rgba(0, 0, 0, 0.54);
+  color: $pri-text-color;
   font-size: 12px;
   line-height: 15px;
   top: 0px;
@@ -2449,7 +2449,7 @@ input[type="search"] {
   background-repeat: no-repeat;
   background-position: right center;
   cursor: pointer;
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
   font-size: 16px;
   padding: 0 25px 0 0;
 }
@@ -2467,7 +2467,7 @@ input[type="search"] {
 }
 
 .mui-select > select:disabled {
-  color: rgba(0, 0, 0, 0.26);
+  color: $pri-text-color;
   cursor: not-allowed;
   background-color: transparent;
   opacity: 1;
@@ -2647,14 +2647,14 @@ th {
   clear: both;
   font-weight: normal;
   line-height: 1.429;
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
   white-space: nowrap;
 }
 
 .mui-dropdown-menu > li > a:hover,
 .mui-dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
   background-color: #EEEEEE;
 }
 
@@ -2698,7 +2698,7 @@ th {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.87);
+  color: $pri-text-color;
   cursor: default;
   height: 48px;
   line-height: 48px;

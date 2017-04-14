@@ -35,6 +35,9 @@ $content-width:    900px;
 "syntax-highlighting"
 ;
 
+//Include to import the _variables class
+@import 'base/_variables.scss';
+
 body {
   padding-top: 93px;
 }
@@ -50,7 +53,7 @@ i.fa {
 
 /* This is where we set the CSS for the Appbar or Heading bar*/
 .site-appbar {
-  background-color: mui-color("light-green", "500");
+  background-color: $grn-title-bar;
   left: 0;
   margin-bottom: 15px;
   overflow: auto;
@@ -110,6 +113,8 @@ i.fa {
   top: 135px;
   z-index: 3;
 
+  background-color: $mui-background;
+
   .post-meta {
     padding: 10px 0 10px 5px;
   }
@@ -151,7 +156,7 @@ i.fa {
 /* This is where we change the Post data ie Colour*/
 .post-data {
   padding: 15px;
-  background-color: #FFF;
+  background-color: $mui-background;
 }
 
 article {
