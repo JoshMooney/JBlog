@@ -3,7 +3,9 @@
     <h2>Links</h2>
     <ul class="about-links">
         <li><a href="/Polysite/" class="mui-btn">Website</a></li>
+        <li><a href="/JBlog/resume/" class="mui-btn">Resume</a></li>
         <li><a href="/JBlog/repos/" class="mui-btn">Github Repos</a></li>
+        <li><a href="/test/" class="mui-btn">Test Area</a></li>
         <li><a href="/JBlog/about/" class="mui-btn">About</a></li>
     </ul>
     <h2>Contact</h2>
@@ -19,6 +21,9 @@
         {% endif %}
         {% if site.links.email %}
             <li><a href="mailto:{{ site.links.email }}" class="mui-btn"><i class="fa fa-envelope"></i>Mail</a></li>
+        {% endif %}
+        {% if site.links.youtube %}
+            <li><a href="https://www.youtube.com/{{ site.links.youtube }}" target="_blank" class="mui-btn"><i class="fa fa-youtube"></i>Youtube</a></li>
         {% endif %}
 
         <!-- My own custom links-->

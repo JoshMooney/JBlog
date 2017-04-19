@@ -24,6 +24,7 @@ links:
   linkedin: josh-mooney-ire/
   discord_name: Josh
   discord_invite: https://discord.gg/7st5bYt
+  youtube: channel/UCSQYKVtCYBzy2cTS0X11vwQ #The link after the www.Youtube.com/^Here
   Xbox:                           #My own added external links
   timezone: Europe/Dublin
 
@@ -40,9 +41,9 @@ ga_id: UA-97232992-1
 ga_domain: JoshMooney.github.io/JBlog
 
 #Paginate page controller
-gems: [jekyll-paginate]
-paginate: 5
-paginate_path: "page:num"
+gems: ['jekyll-paginate']
+paginate: 7
+paginate_path: "/Paginate/page:num/"
 
 #Github Metadata
 gems: ['jekyll-github-metadata']

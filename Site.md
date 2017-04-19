@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Site
+title: Polymer Site
 color: indigo
 permalink: /Polysite/
 ---
