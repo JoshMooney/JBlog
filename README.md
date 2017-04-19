@@ -24,3 +24,10 @@ And when pushing live change it like so:
 ````markdown
 permalink: /repos/
 ````
+Some helpful links to CSS stuff are:
+* Pagination: https://www.w3schools.com/css/css3_pagination.asp
+* CSS3 Image: https://www.w3schools.com/css/css3_images.asp
+* Jekyll Paginate: https://jekyllrb.com/docs/pagination/
+
+
+

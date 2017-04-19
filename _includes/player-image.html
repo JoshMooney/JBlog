@@ -1,11 +1,13 @@
 <style type="text/css">
 div.full {
-    width: 50%;
+    width: 100%;
     height: auto;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     border-radius: 8px;
+    text-align: center;
+    padding: 10px 20px;
 }
 div.half {
     width: 50%;
@@ -14,21 +16,45 @@ div.half {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     border-radius: 8px;
+    text-align: center;
+    padding: 10px 20px;
 }
 </style>
 
 {% if include.full == true %}
 <div class="full">
     <img src="{{include.dir}}"/>
-    <p>This is a test image</p>
+    <p>{{ include.details }}</p>
 </div>
 {% endif %}
 
 {% if include.full == false %}
-<div class="half">
-    <img src="{{include.dir}}"/>
-    <p>This is a test image</p>
-</div>
+    {% if align == right %}
+    <div align="right">
+        <div class="half">
+            <img src="{{ include.dir }}"/>
+            <p>{{ include.details }}</p>
+        </div>
+    </div>
+    {% endif %}
+
+    {% if align == left %}
+    <div align="left">
+        <div class="half">
+            <img src="{{ include.dir }}"/>
+            <p>{{ include.details }}</p>
+        </div>
+    </div>
+    {% endif %}
+
+    {% if align == center %}
+    <div align="center">
+        <div class="half">
+            <img src="{{ include.dir }}"/>
+            <p>{{ include.details }}</p>
+        </div>
+    </div>
+    {% endif %}
 {% endif %}
 
 

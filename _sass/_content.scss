@@ -178,9 +178,14 @@
         margin: $margin 0;
         padding: 0 10%;
         text-align: center;
+        border-radius: 5px;
         .btn:first-child {
             margin-right: 1em;
         }
+    }
+
+    .pagination active {
+        border-radius: 5px;
     }
 
     #search-results {
