@@ -1,9 +1,9 @@
-###JBlog
-##A Blog made in Jekyll bt Josh, JBlog
+### JBlog
+## A Blog made in Jekyll bt Josh, JBlog
 
 This will me a simple reminder page for important pieces of information while building the site.
 
-##Github metadata tokens
+## Github metadata tokens
 This is funny issue to have if the Github Repos page isn't working it will probably have something to do with the permalink located at the top of the Github-Repos.md file.
 
 Where it says:
