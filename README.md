@@ -13,6 +13,7 @@ layout: page
 title: repos
 color: indigo
 cover: <Image>
+tags: Hi Foo Bar BigTag!
 permalink: /JBlog/repos/		
 ---
 ````
