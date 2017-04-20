@@ -32,6 +32,8 @@ exclude:
   - README.md
 full_name: Josh
 
+##permalink: /blog/:day-:month-:year/:title/
+
 ##set this to enable disqus commenting
 disqus: Josh
 
@@ -40,9 +42,9 @@ ga_id: UA-97232992-1
 ga_domain: JoshMooney.github.io/JBlog
 
 #Paginate page controller
-gems: [jekyll-paginate]
-paginate: 5
-paginate_path: "page:num"
+gems: ['jekyll-paginate']
+paginate: 2
+paginate_path: "Pages/page:num"
 
 #Github Metadata
 gems: ['jekyll-github-metadata']
