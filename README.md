@@ -30,5 +30,15 @@ Some helpful links to CSS stuff are:
 * CSS3 Image: https://www.w3schools.com/css/css3_images.asp
 * Jekyll Paginate: https://jekyllrb.com/docs/pagination/
 
-
-
+Upon fixing the google analytics for my site I found away(a bad one) of getting around the issue for my site having identity issues regarding the baseurl.
+What this fix is to add a Liquid variable 
+```
+{% jekyll.enviroment == 'production' %}
+```
+Which is set automatically upon being pushed to github so I was thinking of wrapping anything that has link issues in this it doubles up alot of my code but means
+I dont have to worry about link issues again til i feel like fixing the root of the problem. If you wanna run the project getting the production site all you must do
+is when running the jekyll command prefix JEKYLL_ENV=production eg.
+```
+JEKYLL_ENV=production bundle exec jekyll serve
+```
+Keep in mind this will also mean the google analytics will be enabled when running localhost.SS

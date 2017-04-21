@@ -22,9 +22,11 @@ div.half {
 </style>
 
 {% if include.full == true %}
-<div class="full">
-    <img src="{{include.dir}}"/>
-    <p>{{ include.details }}</p>
+<div align="center">    
+    <div class="full">
+        <img src="{{include.dir}}"/>
+        <p>{{ include.details }}</p>
+    </div>
 </div>
 {% endif %}
 
