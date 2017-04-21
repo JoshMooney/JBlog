@@ -45,7 +45,7 @@ ga_domain: JoshMooney.github.io/JBlog
 
 #Paginate page controller
 gems: ['jekyll-paginate']
-paginate: 1
+paginate: 7
 paginate_path: "page:num"
 
 
