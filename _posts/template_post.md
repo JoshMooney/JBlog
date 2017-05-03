@@ -47,20 +47,34 @@ _To make something Italic_
 **To make something Bold**
 
 ##Include Media
-Youtube
+**Youtube**
+
 {% include player-youtube.html w=500 h=315 ylink="uR5EzrjZ07U" %}
-Vimeo
+
+**Vimeo**
+
 {% include player-vimeo.html w=500 h=315 vlink="205127936" %}
-Jekyll Image
+
+**Jekyll Image**
+
 ![My helpful screenshot]({{ site.url }}/img/test.png)
-Image-Player
-ImageFullScreen
+
+### **Image-Player**
+
+**ImageFullScreen**
+
 {% include player-image.html dir="/img/test.png" full=true details="Hello World!" %}
-ImageAlignedRight
+
+**ImageAlignedRight**
+
 {% include player-image.html dir="/img/test.png" full=false align=right details="Foo World!" %}
-ImageAlignedLeft
+
+**ImageAlignedLeft**
+
 {% include player-image.html dir="/img/test.png" full=false align=left details="Bar World!" %}
-ImageAlignedCenter
+
+**ImageAlignedCenter**
+
 {% include player-image.html dir="/img/test.png" full=false align=center details="Blink World!" %}
 
 ## Lists & NestedLists
