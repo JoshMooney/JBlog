@@ -22,18 +22,21 @@ host it online.
 Now for anyone who hasn't met me I AM NOT A WEB DEVELOPER! Infact I have very little networking experience but find this an interesting challege and good knowledge to have under
  my belt. This would be a good oppertunity to introduce myself. 
  
- Hi, my name is Josh. {Picture ??} 
+ Hi, my name is Josh. {% include player-image.html dir="/img/grdtuation_me.jpg" full=false align=right details="Graduation time" %}
  
  Im a 22 year old what feels like fresh out of college, infact I've been out of college coming up on
  a year this May. The reason it feels so fresh is, like alot of my peers; found it horribly difficult to get any kind of employment. After completing a 4 year Game Development course
- at [Instute of Technoly Carlow](ITC Link) achieveing a Second Class First Honor, I went on the prowl for a job. For the first 3 months or so I was exclusivly looking for game development
+ at [Instute of Technoly Carlow](http://itcarlow.ie/) achieveing a Second Class First Honor, I went on the prowl for a job. For the first 3 months or so I was exclusivly looking for game development
  jobs but this being Ireland there isn't really a market here for it. Then I expanded my seach parameters to anything software related and after applying for close to 60 jobs in one month 
  I moved onto any kind of job because I was board of sitting around. I managed to find a job working in a all digital casino in Dun Laoghaire only 20 minutes from my home. The hours were 
  shift work meaning day shift 9am-5pm(Brillant) or 5pm-3am(Not so much), I met some fantastic people working there both staff and memebers, the dayly face to face also helped me get over 
  alot of things like fear of confrontation, angisity meeting new people and a mix of terror and angisty making small talk with aquatences.
  
- 6 months past like a flash and I continued to look for a job in my field a job to progress my career. Thanks to the help of a friend from college who I don't know if its ok to name but I'm 
- going to do it anyway Alex. I got an interview, the first interview. The job was a software developer in a small tech company down in Cork called [Digisoft.tv]() who specialize in developing 
+ 6 months past like a flash and I continued to look for a job in my field a job to progress my career. Thanks to the help of a friend {% include player-image.html dir="/img/apartment.jpg" full=false align=right details="Snazzy new apartment" %}from college who I don't know if its ok to name but I'm 
+ going to do it anyway Alex. I got an interview, the first interview. The job was a software developer in a small tech company down in Cork called [Digisoft.tv](http://www.digisoft.tv/) who specialize in developing 
  software related to and for TV. After what I felt was a fantastic interview I was told "You will hear from us after the new year", it being December 19th I saw no issue with that. I waited, and waited
   and waited eagerly to hear back. I didn't! so I continued still thinking I could hear from the job every week that passed I lost alittle more hope and every week I held myself back from emailing 
   them looking for feedback or a update on the position but was warned this is never a good idea. If an employer is interested in you they will get in contact with you, not the other way around.
+  
+After nearly 2 months of agonising waiting I mailed them and within a week I was moving to Cork, job bound and happy as ever. I've now been working at Digisoft for about 3 months, I have settled in 
+gotten a lovely apartment with Alex and his girlfriend and haven't stopped learning since starting work, every day is a new challenge and I'm having a ball.

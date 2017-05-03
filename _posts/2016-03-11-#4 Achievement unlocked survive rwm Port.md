@@ -1,0 +1,28 @@
+---
+layout: post
+title: #4 Achievement Unlock survive RWM
+color: light-blue
+tags: WordpressPort #4
+categories: Dev
+date: 11-03-2016
+---
+{% include player-youtube.html w=500 h=315 ylink="a53NZ_DVm8A" %}
+
+So its finally done, all those four weeks of work have all been spent and I'm delighted to say I'm quiet happy with the end product. With more than half the time gone and quiet a bit of work to be done we as a team went into over drive mode for the last 10 days. We managed to entirely satisfy the Games Engineering rubic and had a finished project so qualified for the RWM grade too. Unfortunately the entire of the AI Fuzzy bot and Networking where assigned to individuals and never made it into the final project. This was our teams undoing if we had sub divided up the tasks better and ensured no single persons work carries entire mandatory features. But this is meant as a learning process just as much as it is an assignment so as long as I bring the knowledge to my next project I still consider it as success.
+<h3>Week 3</h3>
+The usual Monday morning scrum meeting, with planning poker and task assignment taking place the rest of the week everyone just did there own work. As this is the 3rd iteration of the planning we began to become a well oiled machine everyone was aware that we had passed the half way point and with the finish in sight it was important to get the work done! Everyone knew there role, there tasks and anyone they might need to collaborate with, beyond that we left each other to our own devices.  It was nice it was beginning to feel like a real development team, we had achieved "Flow" if you would.
+
+I got the opportunity to continue working on the pathing and unit factory i was implementing [last sprint](https://joshmooney.wordpress.com/2016/02/24/3-rwm-im-already-half-way-there/). I first got to create each of the unit variants and give them custom states to make them "feel" different for gameplay purposes. After which I was tasked with getting each of these units to follow its own specific pathing. The AI bot and the onscreen buttons will need a quick as easy way of spawning enemies. I was able to neatly hooked up my unit factory now creating different types of enemies to the [Command Pattern](https://en.wikipedia.org/wiki/Command_pattern) to promote decoupling and good design. Although the issue here was the turret factory and unit factory where not generalized and require, different arguments and classes to operate. To get around this i set up an inheritance tree which is best described using this simple diagram.
+{% include player-image.html dir="/img/class_command_inherit_graph.png" full=true details="Command Pattern Graph" %}
+
+As some extra work that was assigned to someone else but wasn't getting done I also picked up the [Observer Pattern](https://en.wikipedia.org/wiki/Observer_pattern) not actually knowing what it was or how to use it. With alittle google and a lot of prototyping on a separate branch I had the whole system up and running within a couple of hours. I was using this class to check for events that would notify the achievement class which would decide to pop the achievement or not. There where only 2-3 achievements in the game at this stage and they where for spawning units.
+
+{% include player-image.html dir="/img/firstspawn.png" full=true details="Custom Achievemnt" %}
+<h3>Week 4</h3>
+The Monday the artist from Wexford campus where up to meet with us and give us an update on the assets, by this point we had only received one or two small images and nothing was animated. We had a few difficulties working with the artist, they where lovely girls always egar to help and make changes where ever needed but for whatever reason the art students where never taught how to make sprite sheets let alone animated sprite sheets. So we got a flurry of assets mid week but each individual tile in the animation where different sizes, had varying degrees of transparency but perfect assets. So after a bit of re-sizing and repacking got rid of these issues.
+
+It was crunch time, this is a widely used phase that gets thrown around a lot but this was intense, long hours and a mountain of energy drinks this is a programmers crunch time. I managed to make a few videos this week as I subbed in all the new assets we where slowly receiving from our artists. I implemented Box2D collision filtering this sprint fairly quickly, this allows box bodies of differing categories and bit masks to not collide. Our Fuzzy AI test bot was implemented this sprint so I worked along side the AI programmer to see what kind of thing i need to observer in the game(AI needs to know about). I wrote a Unit_Observer class which is responsible for knowing how many of each type of unit and tower each player has and a Gold_Observer for tracking the gold of both players. The bot uses these statistics I find to make educated decisions on what to do next. I also added functionality such as death, collision and combat to the Base Castle class so the base can be damaged destroyed and the end game flag can be raised.{% include player-image.html dir="/img/class_observer_inherit_graph.png" full=true details="Observer Pattern Graph" %}
+
+Finishing up the week we spend a nice amount of time updating the GDD an TDD. I had been doing mine from the start as we went so I found myself with time to expand my achievements from last sprint. The new observers I created where used to track things such as total units on the field and total gold spent and earned so implementing the achievements was not difficult. A full achievement list can be found below.
+
+{% include player-image.html dir="/img/achievement_list.png" full=true details="Achievemnt List" %}
