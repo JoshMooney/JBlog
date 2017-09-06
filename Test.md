@@ -2,7 +2,7 @@
 layout: page
 title: Test
 color: indigo
-permalink: /test/
+permalink: /JBlog/test/
 ---
 
 Custom HTML Image loader

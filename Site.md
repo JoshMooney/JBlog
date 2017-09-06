@@ -2,7 +2,7 @@
 layout: default
 title: Polymer Site
 color: indigo
-permalink: /Polysite/
+permalink: /JBlog/Polysite/
 ---
 
 //This is a redirect to the Polysite hosted at JoshMooney.Github.io/Polysite/
