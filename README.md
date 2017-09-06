@@ -14,12 +14,12 @@ title: repos
 color: indigo
 cover: <Image>
 tags: Hi Foo Bar BigTag!
-permalink: /JBlog/repos/		
+permalink: /jblog/repos/
 ---
 ````
 For now when running locally this will make it work:
 ````markdown
-permalink: /JBlog/repos/
+permalink: /jblog/repos/
 ````
 And when pushing live change it like so:
 ````markdown
