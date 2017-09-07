@@ -6,7 +6,7 @@ description: "A Place for Programming"
 keywords: "jekyll, theme, material, blog"
 
 url: "http://www.Theseus.tk" # the base hostname & protocol for your site
-baseurl: "/jblog" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 
 # Build settings
 markdown: kramdown
