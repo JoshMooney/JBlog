@@ -19,7 +19,7 @@ permalink: /repos/
 ````
 For now when running locally this will make it work:
 ````markdown
-permalink: /repos/
+permalink: /jblog/repos/
 ````
 And when pushing live change it like so:
 ````markdown
