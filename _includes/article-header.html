@@ -4,7 +4,7 @@
     <div class="panel">
         <h1>
             {% if include.link %}
-            <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            <a class="post-link" href="/jblog{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             {% else %}
             {{ page.title }}
             {% endif %}
@@ -17,7 +17,7 @@
             {% endif %}
             {% for tag in page.tags %}
             <li>
-                <a class="tag" href="{{ '/search/?t=' | append: tag | prepend: site.baseurl }}">#{{ tag }}</a>
+                <a class="tag" href="/jblog{{ '/search/?t=' | append: tag | prepend: site.baseurl }}">#{{ tag }}</a>
             </li>
             {% endfor %}
         </ul>
@@ -33,7 +33,7 @@
 
                 {% if page.author %}
                 <li>
-                    <a href="{{ '/search/?a=' | append: page.author | prepend: site.baseurl }}">
+                    <a href="/jblog{{ '/search/?a=' | append: page.author | prepend: site.baseurl }}">
                         <i class="fa fa-user"></i>
                         {{ page.author }}
                     </a>
