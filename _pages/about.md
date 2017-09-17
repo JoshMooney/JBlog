@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /jblog/about/
 order: 1
 share: false
 ---
