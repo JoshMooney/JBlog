@@ -44,7 +44,7 @@ ga_domain: www.Theseus.tk/jblog
 
 #Paginate page controller
 gems: ['jekyll-paginate']
-paginate: 2
+paginate: 10
 paginate_path: "page:num/"
 
 #Github Metadata
